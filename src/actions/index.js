@@ -5,7 +5,7 @@ file. */
 
 //Action creator
 //this us  named export which allow us to export many different functions (action creators) from single file
-export const selectSong = () => {
+export const selectSong = (song) => {
   //Return an action
   return {
     //type is mendatory but payload is not necessary
